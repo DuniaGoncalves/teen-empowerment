@@ -392,7 +392,6 @@ footer{
 footer ul{
     width: 200px;
     text-align: left;
-    margin: 7px;
 }
 
 footer a{
@@ -408,6 +407,31 @@ footer span{
     background: rgb(48, 48, 48);
     width: inherit;
     height: 100px;
+    display: flex;
+    justify-content: inherit;
+    padding: 15px 30px;
+}
+
+.socialmedia ul{
+    display: flex;
+    margin: 7px;
+    padding-top: 8px;
+}
+
+i {
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+
+.fa-facebook{
+    padding:7px 10px;
+}
+.fa-twitter{
+    padding: 7px 8px;
+}
+.fa-youtube-play{
+    padding: 7px 8px;
 }
 /* ===========================================================
    Blog
@@ -429,21 +453,28 @@ footer span{
 
 .blogstyle article{
     display: flex;
+    flex-flow: inherit;
 }
 
 .blogimages {
-    background-image: url(../images/img6.JPG);
-    background-position: -222px -139px;
-    width: 33%;
-    height: 100%;
-    min-width: 280px;
-    margin-bottom: -26px;
+    overflow: hidden;
+    height: 212px;
+}
+
+.blogimages img {
+    margin-top: -60px;
 }
 
 .blogtext{
-    width: 280px;
     background: gray;
-    margin-bottom: -26px;
+    width: 362px;
+    margin: -27px 60px 0 0;
+    height: 250px
+}
+
+.blogbox{
+    margin-top:25px;
+
 }
 
 
