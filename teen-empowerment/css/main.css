@@ -130,12 +130,15 @@ form {
 }
 
 h1,
-h2,
+h2
 h3,
 h4,
 h5,
 h6{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+h2{
+    font-size: 32px;
 }
 
 h3{
@@ -156,12 +159,12 @@ section {
 
 li {
     list-style: none;
-    margin: 0 1%;
+    margin: 0 10px;
 }
 
 p{
     font-family: 'Open Sans', sans-serif;
-    color: grey;
+    color: rgb(140, 140, 140);
     font-size: 12pt;
 }
 
@@ -190,16 +193,22 @@ ul {
 header h1 {
     font-size: 60px;
     line-height: 62px;
+    margin-bottom: 0;
 }
 
 header h2{
-    font-size: 36px;
+    margin-bottom: 0;
+}
+
+h5{
+    font-size: 20px;
     margin: 0;
 }
 
-header h5{
-    font-size: 20px;
-    margin: 0;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 nav a{
@@ -211,6 +220,9 @@ nav ul {
     justify-content: flex-end;
 }
 
+nav .logo{
+    max-height: 90px;
+}
 
 .main-hero{
     display: flex;
@@ -242,9 +254,16 @@ nav ul {
     border: 1px solid white;
     padding: 3px 13px;
 }
+
+
+/* ===========================================================
+   Home
+   =========================================================== */
+
 /* ==========================
    About Section
    ========================== */
+
 .images {
     overflow: hidden;
     width: 33%;
@@ -257,6 +276,10 @@ nav ul {
 
 .side{
     width: 40%;
+}
+
+.side a {
+    color: gray;
 }
 
 .aboutteen img{
@@ -273,7 +296,6 @@ nav ul {
 
 .featured {
     margin: 20px;
-    padding-bottom: 10px;
     position: relative;
     overflow: hidden;
     width: 30%;
@@ -333,41 +355,96 @@ nav ul {
  News Section
    ========================== */
 .news{
-    width: 36%;
-    height: 600px;
-
+    width: 59%;
 }
-
 
 .news ul{
     text-align: left;
     width: 100%;
-
+    padding: 10px;
 }
 
 .facebook {
-    width: 27%;
+    width: 40%;
+}
+
+body.plugin {
+    float: right;
 }
 
 .cal-labels{
     font-weight: bold;
 }
 #events {
-    padding-left: 87px;
-    margin-top: -102px;
+    padding-left: 90px;
+    margin-top: -67px;
 }
 
 
 /* ==========================
   Footer
    ========================== */
-    footer  {
-        color: black;
-    }
+footer{
+    background: rgb(140, 140, 140);
+    color: white;
+}
 
+footer ul{
+    width: 200px;
+    text-align: left;
+    margin: 7px;
+}
 
+footer a{
+    color: rgb(230, 230, 230);
+}
 
+footer span{
+    color: white;
+    font-weight: bold;
+}
 
+.socialmedia{
+    background: rgb(48, 48, 48);
+    width: inherit;
+    height: 100px;
+}
+/* ===========================================================
+   Blog
+   =========================================================== */
+.blog-hero{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    background-image: url(../images/img2.jpg);
+    background-repeat: no-repeat;
+    background-position: 10px -131px;
+    background-color: rgb(11, 66, 211);
+    background-blend-mode: darken;
+    width: 100%;
+    height: 500px;
+    color: white;
+    padding: 20px 40px;
+}
+
+.blogstyle article{
+    display: flex;
+}
+
+.blogimages {
+    background-image: url(../images/img6.JPG);
+    background-position: -222px -139px;
+    width: 33%;
+    height: 100%;
+    min-width: 280px;
+    margin-bottom: -26px;
+}
+
+.blogtext{
+    width: 280px;
+    background: gray;
+    margin-bottom: -26px;
+}
 
 
 
