@@ -401,13 +401,17 @@ footer span{
     font-weight: bold;
 }
 
+.allfooter div{
+    margin: 0 60px 0 20px;
+}
+
 .socialmedia{
     background: rgb(48, 48, 48);
     width: inherit;
-    height: 100px;
+    height: 50px;
     display: flex;
     justify-content: inherit;
-    padding: 15px 30px;
+    padding: 0 45px 15px 20px;
 }
 
 .socialmedia ul{
@@ -430,6 +434,16 @@ i {
 }
 .fa-youtube-play{
     padding: 7px 8px;
+}
+
+
+.footertitle{
+    display: flex;
+    margin: 0 0 -10px 20px;
+}
+
+.footertitle h5 {
+    margin: 40px 0 0 550px;
 }
 /* ===========================================================
    Blog
@@ -474,7 +488,72 @@ i {
 
 }
 
+/*--------------------------------------------------------------
+# Contact-section
+--------------------------------------------------------------*/
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
 
+.contact-container div  {
+    width: 23%;
+}
+.contactfooter{
+    margin: 0;
+}
+
+.bigbottomimg {
+    margin:0;
+}
+.bigbottomimg img{
+    width:100%;
+    height: 650px;
+}
+
+
+/*--------------------------------------------------------------
+# Donate-section
+--------------------------------------------------------------*/
+.donate article{
+    width: 40%;
+    padding: 0px 65px 0 60px;
+}
+
+#donatebuttonborder{
+    border: 1px solid black;
+    padding: 3px 13px;
+    margin: 230px;
+    color: black;
+}
+
+.donateform{
+    margin-top: 130px;
+}
+
+.donate article input{
+    border:none;
+}
+
+.donateform div{
+    border-bottom: 1px solid black;
+    margin-bottom: 45px;
+
+}
+
+.donateform label{
+    font-weight: bold;
+}
+
+.long-input {
+    width: 100%;
+}
+
+.sm-input {
+    width: 33%;
+}
 
 
 /* ==========================================================================
@@ -562,9 +641,9 @@ i {
 }
 
 @media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
 
