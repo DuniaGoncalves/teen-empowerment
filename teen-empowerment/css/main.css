@@ -293,7 +293,26 @@ nav .logo{
     overflow: hidden;
     width: 30%;
     height: 500px;
+    color: white;
+    text-align: left;
 
+}
+
+.featured h6{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.featured p {
+    color: white;
+}
+
+.featured span{
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    margin-top:0;
 }
 
 .featured-image{
@@ -310,9 +329,9 @@ nav .logo{
     bottom: 0;
     left: 0;
     padding: 40px;
-    color: white;
     transform: translateY(100%);
     transition: transform .35s ease-out;
+
 }
 
 .featured:hover .featured_overlay {
@@ -448,6 +467,39 @@ i {
 .footertitle h5 {
     margin: 40px 0 0 550px;
 }
+
+/* ===========================================================
+   Home
+   =========================================================== */
+.board div{
+    width: 30%;
+    padding-bottom: 30px;
+}
+
+.board div h5{
+    margin-bottom: -17px;
+}
+
+.board div p{
+    color: black;
+}
+
+.aboutbigimg{
+    width:100%;
+    height: 650px;
+}
+
+.aboutmain h3{
+    margin-bottom: 0;
+}
+
+.aboutmain p{
+    margin-bottom: 40px;
+}
+
+
+
+
 /* ===========================================================
    Blog
    =========================================================== */
@@ -522,7 +574,7 @@ i {
 --------------------------------------------------------------*/
 .donate article{
     width: 40%;
-    padding: 0px 65px 0 60px;
+    padding: 0 65px 0 60px;
 }
 
 #donatebuttonborder{
@@ -543,7 +595,6 @@ i {
 .donateform div{
     border-bottom: 1px solid black;
     margin-bottom: 45px;
-
 }
 
 .donateform label{
@@ -557,7 +608,6 @@ i {
 .sm-input {
     width: 33%;
 }
-
 
 /* ==========================================================================
    Helper classes

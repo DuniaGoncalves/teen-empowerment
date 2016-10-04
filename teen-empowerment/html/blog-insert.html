@@ -72,7 +72,7 @@
     </section>
     <!--Footer starts Here -->
     <footer>
-        <section class="allfooter">
+        <div class="allfooter">
             <div>
                 <ul>
                     <li><a href="#"><span>LOREM IPSUM</span></a></li>
@@ -103,8 +103,8 @@
                     <li><a href="#">Vestibulum laoreet magna laoreet arcu cursus, nec eleifend massa posuere.</a></li>
                 </ul>
             </div>
-        </section>
-        <section>
+        </div>
+        <div>
             <div class="footertitle">
                 <h2>CENTER OF TEEN EMPOWERMENT</h2>
                 <h5> BOSTON | SOMERVILLE | ROCHESTER</h5>
@@ -117,11 +117,16 @@
                     <li><i class="fa fa-youtube-play" aria-hidden="true"></i></li>
                 </ul>
             </div>
-        </section>
+        </div>
     </footer>
 </div>
 <!-- Add your site or application content here -->
-
+<script>
+    $('iframe').load( function() {
+        $('iframe').contents().find("#facebook").append($('<style type="text/css">' +
+                'body{float:right;} </style>'));
+    });
+</script>
 <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
