@@ -137,16 +137,19 @@ h5,
 h6{
     font-family: 'Oswald', sans-serif;
 }
-h2{
-    font-size: 32px;
-}
 
-h3{
+h2{
     font-size: 55px;
     font-weight: bold;
     width: 100%;
     margin-top: 0;
 }
+
+h3{
+    font-size: 32px;
+}
+
+
 
 section {
     margin: 40px auto;
@@ -193,7 +196,7 @@ header h1 {
     margin-bottom: 0;
 }
 
-header h2{
+header h3{
     margin-bottom: 0;
 }
 
@@ -234,7 +237,7 @@ nav .logo{
     padding: 20px 40px;
 }
 
-.main-title{
+.home-title{
     width: 75%;
 }
 
@@ -244,9 +247,14 @@ nav .logo{
     align-items: flex-end;
 }
 
-#boxed-link {
+.boxed-link {
     border: 1px solid white;
     padding: 3px 13px;
+}
+
+.main-title{
+    margin: auto;
+    text-align: center;
 }
 
 /* ===========================================================
@@ -298,18 +306,17 @@ nav .logo{
 
 }
 
-.featured h6{
+.infotext h6{
     font-weight: bold;
     font-size: 20px;
     color: white;
 }
 
-.featured p {
+.infotext p {
     color: white;
 }
 
-.featured span{
-    font-weight: bold;
+.infotext span{
     color: white;
     font-size: 16px;
     margin-top:0;
@@ -393,6 +400,236 @@ body.plugin {
     margin-top: -67px;
 }
 
+/* ===========================================================
+   About Page
+   =========================================================== */
+.board div{
+    width: 30%;
+    padding-bottom: 30px;
+}
+
+.board div h5{
+    margin-bottom: -17px;
+}
+
+.board div p{
+    color: black;
+}
+
+.aboutbigimg{
+    width:100%;
+    height: 650px;
+}
+
+.aboutmain h2{
+    margin-bottom: 0;
+}
+
+.aboutmain p{
+    margin-bottom: 40px;
+}
+
+.slidernav{
+    border-bottom: 1px solid black;
+}
+
+.slidernav ul{
+    display: flex;
+    padding: 0;
+}
+
+.slidernav li:hover{
+    border-bottom: 5px solid black;
+}
+
+/*--------------------------------------------------------------
+# Contact-section
+--------------------------------------------------------------*/
+.contact-container {
+    display: flex;
+}
+
+.contact-container div  {
+    width: 25%;
+    padding-right: 20px;
+}
+
+.contact-container a{
+    color: black;
+}
+.contactfooter{
+    margin: 0;
+}
+
+.bigbottomimg img{
+    width:100%;
+    height: 650px;
+}
+
+.address{
+    width: 100%;
+    margin-left: -11px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(140, 140, 140);
+    font-size: 12pt;
+    text-align: left;
+}
+
+.alignemail{
+    padding-bottom: 52px;
+}
+
+
+
+/* ===========================================================
+   Blog Page
+   =========================================================== */
+.blog-hero{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    background-image: url(../images/img2.jpg);
+    background-repeat: cover;
+    background-color: rgb(11, 66, 211);
+    background-blend-mode: darken;
+    width: 100%;
+    height: 500px;
+    color: white;
+    padding: 20px 40px;
+}
+.main-title h2{
+    margin-bottom: 0;
+}
+
+.main-title h3{
+    margin-top: 0;
+}
+.main-title a{
+    color: white;
+}
+
+.bloginfo{
+    margin-bottom: 25px;
+}
+
+.blogstyle{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
+}
+.blogstyle article{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.blogimages {
+    overflow: hidden;
+    height: 212px;
+}
+
+.blogtext{
+    background: gray;
+    color: white;
+    width: 362px;
+    margin: -55px 60px 0 0;
+    height: 250px;
+    padding-top: 20px;
+}
+
+.blogtext div{
+    margin: 27px;
+}
+
+.blogtext a{
+    color: white;
+}
+
+.blogtext h6{
+    margin-bottom: 0;
+}
+
+.blogbox{
+    margin-top: 60px;
+
+}
+
+/* ===========================================================
+   Blog Insert
+   =========================================================== */
+.mostrecentblog h2{
+    margin-bottom: 0;
+}
+
+.mostrecentblog h5{
+    margin-bottom: 20px;
+}
+
+.mostrecentblog article{
+    width: 45%;
+    margin-right: -120px;
+}
+ .mostrecentblog img{
+     width: 50%;
+     margin: 10px 0 20px 0;
+ }
+
+ .mostrecentblog a{
+     color: black;
+ }
+
+.mostrecentimgs{
+    width: 35%;
+}
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Donate-section
+--------------------------------------------------------------*/
+.donate article{
+    width: 40%;
+    padding: 0 65px 0 60px;
+}
+
+#donatebuttonborder{
+    border: 1px solid black;
+    padding: 3px 13px;
+    margin: 230px;
+    color: black;
+}
+
+.donateform{
+    margin-top: 130px;
+}
+
+.donate article input{
+    border:none;
+}
+
+.donateform div{
+    border-bottom: 1px solid black;
+    margin-bottom: 45px;
+}
+
+.donateform label{
+    font-weight: bold;
+}
+
+.long-input {
+    width: 80%;
+}
+
+.sm-input {
+    width: 33%;
+}
+
+
 /* ==========================
   Footer
    ========================== */
@@ -466,147 +703,6 @@ i {
 
 .footertitle h5 {
     margin: 40px 0 0 550px;
-}
-
-/* ===========================================================
-   Home
-   =========================================================== */
-.board div{
-    width: 30%;
-    padding-bottom: 30px;
-}
-
-.board div h5{
-    margin-bottom: -17px;
-}
-
-.board div p{
-    color: black;
-}
-
-.aboutbigimg{
-    width:100%;
-    height: 650px;
-}
-
-.aboutmain h3{
-    margin-bottom: 0;
-}
-
-.aboutmain p{
-    margin-bottom: 40px;
-}
-
-
-
-
-/* ===========================================================
-   Blog
-   =========================================================== */
-.blog-hero{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-    background-image: url(../images/img2.jpg);
-    background-repeat: cover;
-    background-color: rgb(11, 66, 211);
-    background-blend-mode: darken;
-    width: 100%;
-    height: 500px;
-    color: white;
-    padding: 20px 40px;
-}
-
-.blogstyle article{
-    display: flex;
-    flex-flow: inherit;
-}
-
-.blogimages {
-    overflow: hidden;
-    height: 212px;
-}
-
-.blogimages img {
-    margin-top: -60px;
-}
-
-.blogtext{
-    background: gray;
-    width: 362px;
-    margin: -27px 60px 0 0;
-    height: 250px
-}
-
-.blogbox{
-    margin-top:25px;
-
-}
-
-/*--------------------------------------------------------------
-# Contact-section
---------------------------------------------------------------*/
-.contact-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-}
-
-.contact-container div  {
-    width: 23%;
-}
-.contactfooter{
-    margin: 0;
-}
-
-.bigbottomimg {
-    margin:0;
-}
-.bigbottomimg img{
-    width:100%;
-    height: 650px;
-}
-
-
-/*--------------------------------------------------------------
-# Donate-section
---------------------------------------------------------------*/
-.donate article{
-    width: 40%;
-    padding: 0 65px 0 60px;
-}
-
-#donatebuttonborder{
-    border: 1px solid black;
-    padding: 3px 13px;
-    margin: 230px;
-    color: black;
-}
-
-.donateform{
-    margin-top: 130px;
-}
-
-.donate article input{
-    border:none;
-}
-
-.donateform div{
-    border-bottom: 1px solid black;
-    margin-bottom: 45px;
-}
-
-.donateform label{
-    font-weight: bold;
-}
-
-.long-input {
-    width: 100%;
-}
-
-.sm-input {
-    width: 33%;
 }
 
 /* ==========================================================================
