@@ -143,6 +143,7 @@ h2{
     font-weight: bold;
     width: 100%;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 h3{
@@ -185,6 +186,8 @@ ul {
 
 .wrapper{
     margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
 }
 
 /* ==========================
@@ -203,6 +206,10 @@ header h3{
 h5{
     font-size: 20px;
     margin: 0;
+}
+
+.hamburger{
+    display: none;
 }
 
 nav {
@@ -375,6 +382,10 @@ nav .logo{
    ========================== */
 .news{
     width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 30px 0;
 }
 
 .news ul{
@@ -386,6 +397,7 @@ nav .logo{
 .facebook {
     width: 40%;
     margin-right: -93px;
+    padding: 30px 0;
 }
 
 body.plugin {
@@ -394,9 +406,14 @@ body.plugin {
 
 .cal-labels{
     font-weight: bold;
+    margin: 0 0 5px 0;
+    padding: 0 0 0 75px;
 }
-#events {
-    padding-left: 90px;
+.cal-descriptions{
+    margin: -10px 0 0 75px;
+}
+
+.events {
     margin-top: -67px;
 }
 
@@ -406,6 +423,7 @@ body.plugin {
 .board div{
     width: 30%;
     padding-bottom: 30px;
+    padding: 30px 0;
 }
 
 .board div h5{
@@ -447,6 +465,10 @@ body.plugin {
 --------------------------------------------------------------*/
 .contact-container {
     display: flex;
+    margin: 40px auto;
+    max-width: 1280px;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .contact-container div  {
@@ -484,18 +506,8 @@ body.plugin {
 /* ===========================================================
    Blog Page
    =========================================================== */
-.blog-hero{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
+#blog-hero{
     background-image: url(../images/img2.jpg);
-    background-repeat: cover;
-    background-color: rgb(11, 66, 211);
-    background-blend-mode: darken;
-    width: 100%;
-    height: 500px;
-    color: white;
-    padding: 20px 40px;
 }
 .main-title h2{
     margin-bottom: 0;
@@ -516,6 +528,7 @@ body.plugin {
     margin: 0 auto;
     max-width: 1280px;
     width: 100%;
+    margin-bottom: 70px
 }
 .blogstyle article{
     display: flex;
@@ -569,25 +582,18 @@ body.plugin {
     width: 45%;
     margin-right: -120px;
 }
- .mostrecentblog img{
-     width: 50%;
-     margin: 10px 0 20px 0;
- }
+.mostrecentblog img{
+    width: 50%;
+    margin: 10px 0 20px 0;
+}
 
- .mostrecentblog a{
-     color: black;
- }
+.mostrecentblog a{
+    color: black;
+}
 
 .mostrecentimgs{
     width: 35%;
 }
-
-
-
-
-
-
-
 
 /*--------------------------------------------------------------
 # Donate-section
@@ -638,8 +644,20 @@ footer{
     color: white;
 }
 
+footer .wrapper{
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -webkit-justify-content:space-between;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+}
+
 footer ul{
-    width: 200px;
+    width: 25%;
     text-align: left;
 }
 
@@ -651,38 +669,38 @@ footer span{
     color: white;
     font-weight: bold;
 }
-.allfooter{
-    margin: 0;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    max-width: 100%;
+
+footer .wrapper h5{
+    align-self: center;
+    -webkit-align-self: center;
 }
 
-.allfooter div{
-    margin: 0 60px 0 20px;
-}
-
-.socialmedia{
+.social-media{
     background: rgb(48, 48, 48);
-    width: inherit;
     height: 50px;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 45px 15px 20px;
+    padding: 20px 0;
 }
 
-.socialmedia ul{
+.social-media .wrapper{
     display: flex;
-    margin: 7px;
-    padding-top: 8px;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+
+.social-media ul{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
 }
 
 i {
     border: 2px solid white;
     border-radius: 50%;
 }
-
 
 .fa-facebook{
     padding:7px 10px;
@@ -694,7 +712,6 @@ i {
     padding: 7px 8px;
 }
 
-
 .footertitle{
     display: flex;
     justify-content: space-between;
@@ -704,6 +721,117 @@ i {
 .footertitle h5 {
     margin: 40px 0 0 550px;
 }
+
+
+
+/* Media Queries */
+@media (min-width: 320px) and (max-width: 780px) {
+    section{
+        display: block;
+        padding: 15px;
+        width: initial;
+    }
+    .main-hero {
+        height:300px;
+    }
+
+    .main-hero nav ul{
+        display: none;
+    }
+
+    .main-hero nav{
+        width: 100%;
+        align-items: center;
+    }
+
+    .hamburger{
+        display: block;
+        font-size: 32px;
+    }
+
+    header h1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    footer h3 {
+        margin-bottom: 0;
+    }
+
+    .home-title h3,
+    header h5{
+        display: none;
+    }
+
+    .side{
+        width: 90%;
+    }
+
+    .feat-flex{
+        display: block;
+    }
+
+    .news{
+        width: 90%;
+    }
+
+    .facebook{
+        width: 95%;
+    }
+
+    .social-media li{
+        margin: 5px;
+    }
+
+.main-title h2{
+    font-size: 26px;
+}
+.main-title h3 {
+    font-size: 16px;
+}
+    .aboutbigimg,
+    .bigbottomimg img{
+        height: 330px;
+    }
+
+.board div{
+    display: block;
+    width:95%;
+    padding-bottom: 0;
+}
+
+.contact-container{
+    display: block;
+    margin: 40px 0 0 55px;
+}
+
+.contact-container div{
+    width: 60%;
+    padding-bottom: 30px;
+}
+
+.mostrecentblog article{
+    width: 95%;
+}
+.mostrecentblog img{
+    width: 95%;
+}
+.donate article{
+    width: 95%;
+    padding: 0;
+}
+
+.donateform{
+    margin-top: 70px;
+}
+
+#donatebuttonborder{
+    margin: 145px;
+}
+
+
+}
+
+
 
 /* ==========================================================================
    Helper classes
