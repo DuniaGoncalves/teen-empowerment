@@ -151,16 +151,6 @@ h3{
 }
 
 
-
-section {
-    margin: 40px auto;
-    max-width: 1280px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    width: 100%;
-}
-
 li {
     list-style: none;
     margin: 0 10px;
@@ -171,6 +161,16 @@ p{
     color: rgb(140, 140, 140);
     font-size: 12pt;
 }
+
+section {
+    margin: 40px auto;
+    max-width: 1280px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
 
 ul {
     margin: 0;
@@ -183,6 +183,7 @@ ul {
     display: flex;
     flex-direction: column;
 }
+
 
 .wrapper{
     margin: 0 auto;
@@ -208,9 +209,6 @@ h5{
     margin: 0;
 }
 
-.hamburger{
-    display: none;
-}
 
 nav {
     display: flex;
@@ -231,21 +229,13 @@ nav .logo{
     max-height: 90px;
 }
 
-.main-hero{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Airmen_celebrate_Black_History_Month_through_spoken_word_140211-F-VU439-061.jpg/1280px-Airmen_celebrate_Black_History_Month_through_spoken_word_140211-F-VU439-061.jpg");
-    background-size: cover;
-    background-color: rgb(11, 66, 211);
-    background-blend-mode: darken;
-    height: 600px;
-    color: white;
-    padding: 20px 40px;
+.boxed-link {
+    border: 1px solid white;
+    padding: 3px 13px;
 }
 
-.home-title{
-    width: 75%;
+.hamburger{
+    display: none;
 }
 
 .home-header-text{
@@ -254,10 +244,23 @@ nav .logo{
     align-items: flex-end;
 }
 
-.boxed-link {
-    border: 1px solid white;
-    padding: 3px 13px;
+.home-title{
+    width: 75%;
 }
+
+.main-hero{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Airmen_celebrate_Black_History_Month_through_spoken_word_140211-F-VU439-061.jpg/1280px-Airmen_celebrate_Black_History_Month_through_spoken_word_140211-F-VU439-061.jpg");
+    background-size: cover;
+    background-color: rgb(11, 66, 211);
+    background-blend-mode: soft-light;
+    height: 600px;
+    color: white;
+    padding: 20px 40px;
+}
+
 
 .main-title{
     margin: auto;
@@ -271,6 +274,10 @@ nav .logo{
 /* ==========================
    About Section
    ========================== */
+.aboutteen img{
+    margin: 0 auto;
+    max-height: 480px;
+}
 
 .images {
     overflow: hidden;
@@ -290,11 +297,6 @@ nav .logo{
     color: gray;
 }
 
-.aboutteen img{
-    margin: 0 auto;
-    max-height: 480px;
-}
-
 /* ==========================
    Feature Section
    ========================== */
@@ -311,22 +313,6 @@ nav .logo{
     color: white;
     text-align: left;
 
-}
-
-.infotext h6{
-    font-weight: bold;
-    font-size: 20px;
-    color: white;
-}
-
-.infotext p {
-    color: white;
-}
-
-.infotext span{
-    color: white;
-    font-size: 16px;
-    margin-top:0;
 }
 
 .featured-image{
@@ -377,9 +363,51 @@ nav .logo{
 .featured:hover::before {
     background: rgba(0, 0, 0, 0.5);
 }
+
+.infotext h6{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.infotext p {
+    color: white;
+}
+
+.infotext span{
+    color: white;
+    font-size: 16px;
+    margin-top:0;
+}
+
 /* ==========================
  News Section
    ========================== */
+
+body.plugin {
+    float: right;
+}
+
+.cal-descriptions{
+    margin: -10px 0 0 75px;
+}
+
+.cal-labels{
+    font-weight: bold;
+    margin: 0 0 5px 0;
+    padding: 0 0 0 75px;
+}
+
+.events {
+    margin-top: -67px;
+}
+
+.facebook {
+    width: 40%;
+    margin-right: -93px;
+    padding: 30px 0;
+}
+
 .news{
     width: 50%;
     display: flex;
@@ -394,32 +422,24 @@ nav .logo{
     padding: 10px;
 }
 
-.facebook {
-    width: 40%;
-    margin-right: -93px;
-    padding: 30px 0;
-}
-
-body.plugin {
-    float: right;
-}
-
-.cal-labels{
-    font-weight: bold;
-    margin: 0 0 5px 0;
-    padding: 0 0 0 75px;
-}
-.cal-descriptions{
-    margin: -10px 0 0 75px;
-}
-
-.events {
-    margin-top: -67px;
-}
 
 /* ===========================================================
    About Page
    =========================================================== */
+
+.aboutbigimg{
+    width:100%;
+    height: auto;
+}
+
+.aboutmain h2{
+    margin-bottom: 0;
+}
+
+.aboutmain p{
+    margin-bottom: 40px;
+}
+
 .board div{
     width: 30%;
     padding-bottom: 30px;
@@ -432,19 +452,6 @@ body.plugin {
 
 .board div p{
     color: black;
-}
-
-.aboutbigimg{
-    width:100%;
-    height: 650px;
-}
-
-.aboutmain h2{
-    margin-bottom: 0;
-}
-
-.aboutmain p{
-    margin-bottom: 40px;
 }
 
 .slidernav{
@@ -460,66 +467,21 @@ body.plugin {
     border-bottom: 5px solid black;
 }
 
-/*--------------------------------------------------------------
-# Contact-section
---------------------------------------------------------------*/
-.contact-container {
-    display: flex;
-    margin: 40px auto;
-    max-width: 1280px;
-    justify-content: space-between;
-    width: 100%;
+#about-hero{
+    background-image: url(../images/img6.jpg);
 }
-
-.contact-container div  {
-    width: 25%;
-    padding-right: 20px;
-}
-
-.contact-container a{
-    color: black;
-}
-.contactfooter{
-    margin: 0;
-}
-
-.bigbottomimg img{
-    width:100%;
-    height: 650px;
-}
-
-.address{
-    width: 100%;
-    margin-left: -11px;
-    font-family: 'Open Sans', sans-serif;
-    color: rgb(140, 140, 140);
-    font-size: 12pt;
-    text-align: left;
-}
-
-.alignemail{
-    padding-bottom: 52px;
-}
-
-
-
 /* ===========================================================
    Blog Page
    =========================================================== */
-#blog-hero{
-    background-image: url(../images/img2.jpg);
-}
-.main-title h2{
-    margin-bottom: 0;
+
+.blogbox{
+    margin-top: 60px;
 }
 
-.main-title h3{
-    margin-top: 0;
+.blogimages {
+    overflow: hidden;
+    height: 212px;
 }
-.main-title a{
-    color: white;
-}
-
 .bloginfo{
     margin-bottom: 25px;
 }
@@ -528,17 +490,13 @@ body.plugin {
     margin: 0 auto;
     max-width: 1280px;
     width: 100%;
-    margin-bottom: 70px
+    margin-bottom: 70px;
+    margin-top: 70px;
 }
 .blogstyle article{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-}
-
-.blogimages {
-    overflow: hidden;
-    height: 212px;
 }
 
 .blogtext{
@@ -550,26 +508,46 @@ body.plugin {
     padding-top: 20px;
 }
 
-.blogtext div{
-    margin: 27px;
-}
-
 .blogtext a{
     color: white;
+}
+
+.blogtext div{
+    margin: 27px;
 }
 
 .blogtext h6{
     margin-bottom: 0;
 }
 
-.blogbox{
-    margin-top: 60px;
+.main-title h2{
+    margin-bottom: 0;
+}
 
+.main-title h3{
+    margin-top: 0;
+}
+.main-title a{
+    color: white;
+}
+
+#blog-hero{
+    background-image: url(../images/img2.jpg);
 }
 
 /* ===========================================================
    Blog Insert
    =========================================================== */
+
+.mostrecentblog a{
+    color: black;
+}
+
+.mostrecentblog article{
+    width: 45%;
+    margin-right: -120px;
+}
+
 .mostrecentblog h2{
     margin-bottom: 0;
 }
@@ -578,32 +556,75 @@ body.plugin {
     margin-bottom: 20px;
 }
 
-.mostrecentblog article{
-    width: 45%;
-    margin-right: -120px;
-}
+
 .mostrecentblog img{
     width: 50%;
     margin: 10px 0 20px 0;
-}
-
-.mostrecentblog a{
-    color: black;
 }
 
 .mostrecentimgs{
     width: 35%;
 }
 
-/*--------------------------------------------------------------
-# Donate-section
---------------------------------------------------------------*/
+/* ===========================================================
+   Contact-section
+   =========================================================== */
+
+.address{
+    width: 100%;
+    margin-left: -11px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(140, 140, 140);
+    font-size: 12pt;
+    text-align: left;
+}
+
+.align-email{
+    padding-bottom: 52px;
+}
+
+.bigbottomimg img{
+    width:100%;
+    height: auto;
+}
+
+.contact-container {
+    display: flex;
+    margin: 40px auto;
+    max-width: 1280px;
+    justify-content: space-between;
+    width: 100%;
+}
+.contact-container a{
+    color: black;
+}
+
+.contact-container div  {
+    width: 25%;
+    padding-right: 20px;
+}
+
+.contactfooter{
+    margin: 0;
+}
+
+#contact-hero{
+    background-image: url(../images/teens.jpg);
+}
+/* ===========================================================
+   Donate-section
+   =========================================================== */
+
 .donate article{
     width: 40%;
     padding: 0 65px 0 60px;
 }
 
-#donatebuttonborder{
+.donate article input{
+    border:none;
+}
+
+.donatebuttonborder{
     border: 1px solid black;
     padding: 3px 13px;
     margin: 230px;
@@ -612,10 +633,6 @@ body.plugin {
 
 .donateform{
     margin-top: 130px;
-}
-
-.donate article input{
-    border:none;
 }
 
 .donateform div{
@@ -635,6 +652,9 @@ body.plugin {
     width: 33%;
 }
 
+#donate-hero{
+    background-image: url(../images/img2.jpg);
+}
 
 /* ==========================
   Footer
@@ -642,6 +662,20 @@ body.plugin {
 footer{
     background: rgb(140, 140, 140);
     color: white;
+}
+
+footer a{
+    color: rgb(230, 230, 230);
+}
+
+footer span{
+    color: white;
+    font-weight: bold;
+}
+
+footer ul{
+    width: 25%;
+    text-align: left;
 }
 
 footer .wrapper{
@@ -656,45 +690,9 @@ footer .wrapper{
     -webkit-flex-flow: row wrap;
 }
 
-footer ul{
-    width: 25%;
-    text-align: left;
-}
-
-footer a{
-    color: rgb(230, 230, 230);
-}
-
-footer span{
-    color: white;
-    font-weight: bold;
-}
-
 footer .wrapper h5{
     align-self: center;
     -webkit-align-self: center;
-}
-
-.social-media{
-    background: rgb(48, 48, 48);
-    height: 50px;
-    padding: 20px 0;
-}
-
-.social-media .wrapper{
-    display: flex;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    align-items: center;
-    -webkit-align-items: center;
-    justify-content: space-between;
-    -webkit-justify-content: space-between;
-}
-
-.social-media ul{
-    display: flex;
-    justify-content: flex-end;
-    padding: 0;
 }
 
 i {
@@ -722,39 +720,41 @@ i {
     margin: 40px 0 0 550px;
 }
 
+.social-media{
+    background: rgb(48, 48, 48);
+    height: 50px;
+    padding: 20px 0;
+}
 
+.social-media ul{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+.social-media .wrapper{
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
 
 /* Media Queries */
-@media (min-width: 320px) and (max-width: 780px) {
+@media (min-width: 320px) and (max-width: 767px) {
+
+    /* home page */
     section{
         display: block;
         padding: 15px;
         width: initial;
     }
-    .main-hero {
-        height:300px;
-    }
-
-    .main-hero nav ul{
-        display: none;
-    }
-
-    .main-hero nav{
-        width: 100%;
-        align-items: center;
-    }
-
-    .hamburger{
-        display: block;
-        font-size: 32px;
-    }
 
     header h1 {
         font-size: 32px;
         line-height: 36px;
-    }
-    footer h3 {
-        margin-bottom: 0;
     }
 
     .home-title h3,
@@ -762,75 +762,205 @@ i {
         display: none;
     }
 
-    .side{
-        width: 90%;
+    .facebook{
+        width: 95%;
     }
 
     .feat-flex{
         display: block;
     }
 
+    .hamburger{
+        display: block;
+        font-size: 32px;
+    }
+    .main-hero {
+        height:300px;
+    }
+
+    .main-hero nav{
+        width: 100%;
+        align-items: center;
+    }
+
+    .main-hero nav ul{
+        display: none;
+    }
+
     .news{
         width: 90%;
     }
 
-    .facebook{
-        width: 95%;
+    .side{
+        width: 90%;
     }
 
     .social-media li{
         margin: 5px;
     }
 
-.main-title h2{
-    font-size: 26px;
-}
-.main-title h3 {
-    font-size: 16px;
-}
+    /* about page */
     .aboutbigimg,
     .bigbottomimg img{
-        height: 330px;
+        height: auto;
     }
 
-.board div{
-    display: block;
-    width:95%;
-    padding-bottom: 0;
-}
+    .board div{
+        display: block;
+        width:95%;
+        padding-bottom: 0;
+    }
 
-.contact-container{
-    display: block;
-    margin: 40px 0 0 55px;
-}
+    .main-title h2{
+        font-size: 26px;
+    }
+    .main-title h3 {
+        font-size: 16px;
+    }
 
-.contact-container div{
-    width: 60%;
-    padding-bottom: 30px;
-}
+    /* blog-insert page */
+    .mostrecentblog article{
+        width: 95%;
+    }
+    .mostrecentblog img{
+        width: 95%;
+    }
 
-.mostrecentblog article{
-    width: 95%;
-}
-.mostrecentblog img{
-    width: 95%;
-}
-.donate article{
-    width: 95%;
-    padding: 0;
-}
+    /* contact page */
+    .contact-container{
+        display: block;
+        margin: 40px 0 0 55px;
+    }
 
-.donateform{
-    margin-top: 70px;
+    .contact-container div{
+        width: 60%;
+        padding-bottom: 30px;
+    }
+
+    /* donate page */
+    .donate article{
+        width: 75%;
+    }
+
+    .donateform{
+        margin-top: 70px;
+    }
+
+    .donatebuttonborder{
+        margin: 105px;
+    }
+    /* footer */
+    footer h3 {
+        margin-bottom: 0;
+    }
+
+    footer ul{
+        width: 50%;
+    }
+
+    footer .wrapper h5{
+        width: inherit;
+    }
+
+    .social-media .wrapper{
+        flex-flow: inherit;
+    }
+
 }
+@media (min-width: 768px) and (max-width: 1024px){
 
-#donatebuttonborder{
-    margin: 145px;
+    /* home page */
+    header h5{
+        font-size: 15px;
+        width: 35%;
+    }
+
+    .home-title h3{
+        font-size: 25px;
+        margin-top: 0;
+    }
+
+    .facebook{
+        width: 75%;
+        padding-left: 185px;
+    }
+
+    .featured{
+        height: 388px;
+        min-width: 220px;
+
+    }
+
+    footer .wrapper h3,
+    footer .wrapper h5{
+        margin: 10px;
+    }
+    .main-hero {
+        height:300px;
+    }
+
+    .news{
+        width: 95%;
+    }
+
+    /* about page */
+    .aboutmain p{
+        margin: 0 10px 25px 0;
+    }
+
+    .board div{
+        padding: 30px 5px;
+    }
+
+    /* blog page */
+
+    .blogbox{
+        margin-top: 10px;
+        width: 32%;
+    }
+
+    .blogtext{
+        width: 241px;
+    }
+    /* blog-insert page */
+
+    .mostrecentblog article {
+        width: 55%;
+        margin-right: -119px;
+    }
+    .mostrecentblog img {
+        width: 70%;
+    }
+    /* contact page */
+
+    .contact-container{
+        flex-flow: row wrap;
+    }
+    .contact-container div{
+        width:42%;
+        padding: 0 20px 0 15px;
+    }
+
+    .contact-container h5,
+    .contact-container ul,
+    .contact-container a{
+        padding: 0 0 10px 18px;
+    }
+
+
+
+    .donate article {
+        width: 80%;
+    }
+
+    .donateform {
+        margin-top: 10px;
+    }
+
+    .donatebuttonborder{
+        margin: 270px;
+    }
 }
-
-
-}
-
 
 
 /* ==========================================================================

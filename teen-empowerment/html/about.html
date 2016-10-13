@@ -18,7 +18,7 @@
 </head>
 <body>
 <!--Nav starts -->
-<header class="main-hero">
+<header class="main-hero" id="about-hero">
     <nav>
         <a href="index.html"><img class="logo" src="../images/logo_white.png" alt="Teen Empowerment logo" /></a>
         <a href=""><span class="hamburger">&#9776;</span></a>
@@ -40,12 +40,12 @@
     <!--Slider Nav starts Here -->
     <section class="slidernav">
         <ul>
-            <li>ABOUT US</li>
-            <li>IMPACT</li>
-            <li>OUR WORK</li>
+            <li id="about-us">ABOUT US</li>
+            <li id="impact">IMPACT</li>
+            <li id="ourwork">OUR WORK</li>
         </ul>
     </section>
-    <section class="aboutmain">
+    <section class="aboutmain" id="aboutsect">
         <h2>ABOUT US</h2>
         <p>The mission of the Center for Teen Empowerment is to empower youth and adults as agents of individual,
             institutional, and social change. Teen Empowerment (TE) inspires young people, and the adults who work
@@ -56,9 +56,9 @@
             between youth and adults. The Teen Empowerment Model is responsible for our success. TE's interactive methodology
             is effective with groups of all ages, and TE staff train others to use the model and have written a book,
             Moving Beyond Icebreakers©, describing our creative approach to group facilitation.</p>
+       <div>
         <img class="aboutbigimg" src= "../images/teens.jpg"  alt="">
-    </section>
-    <section class="aboutmain">
+       </div>
         <h2>HISTORY</h2>
         <p>The Teen Empowerment Model is the product of decades of thoughtful experience in changing the values,
             beliefs, and behaviors of youth and adults, making institutions more effective, and developing mechanisms
@@ -70,7 +70,9 @@
             The Center for Teen Empowerment, Inc. in order to demonstrate both the power of the TE Model to generate
             solutions to difficult problems that confront urban communities and the model's potential applications in
             a wide range of social service and educational settings.</p>
-        <img class="aboutbigimg" src="../images/teens.jpg" alt="">
+        <div>
+            <img class="aboutbigimg" src= "../images/teens.jpg"  alt="">
+        </div>
     </section>
     <section class="board">
         <h2>BOARD OF DIRECTORS</h2>
@@ -120,6 +122,12 @@
             <p>Manager, Grant Thornton LLP.</p>
         </div>
     </section>
+    <section class="aboutmain hidden" id="impactsect">
+        <h1>IMPACT</h1>
+    </section>
+    <section class="aboutmain hidden" id="ourworksect">
+        <h1>OUR WORK</h1>
+    </section>
 </div>
 <!--Footer starts Here -->
 <footer>
@@ -164,13 +172,40 @@
 <script>
     $('iframe').load( function() {
         $('iframe').contents().find("#facebook").append($('<style type="text/css">' +
-                'body{float:right;} </style>'));
+                'body{float:right;} </style>'));about-us
     });
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
+
+<!--<script>
+    $(document).ready(function(){
+
+        $("#about-us").on("click",function(){
+
+            $("#aboutsect").toggle();
+            $("#impactsect").hide();
+            $("#ourworksect").hide();
+        });
+        $("#impact").on("click",function(){
+
+            $("#impactsect").show();
+            $("#ourworksect").hide();
+            $("#aboutsect").hide();
+        });
+        $("#ourwork").on("click",function(){
+
+            $("#ourworksect").show();
+            $("#impactsect").hide();
+            $("#aboutsect").hide();
+        });
+
+
+    });
+</script>-->
 
 <!-- google analytics: change ua-xxxxx-x to be your site's id. -->
 <script>
@@ -183,3 +218,5 @@
 </script>
 </body>
 </html>
+
+

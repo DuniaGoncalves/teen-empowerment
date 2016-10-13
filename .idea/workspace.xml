@@ -6,10 +6,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teen-empowerment/css/main.css" afterPath="$PROJECT_DIR$/teen-empowerment/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teen-empowerment/html/about.html" afterPath="$PROJECT_DIR$/teen-empowerment/html/about.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teen-empowerment/html/blog-insert.html" afterPath="$PROJECT_DIR$/teen-empowerment/html/blog-insert.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teen-empowerment/html/blog.html" afterPath="$PROJECT_DIR$/teen-empowerment/html/blog.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teen-empowerment/html/contact.html" afterPath="$PROJECT_DIR$/teen-empowerment/html/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teen-empowerment/html/donate.html" afterPath="$PROJECT_DIR$/teen-empowerment/html/donate.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teen-empowerment/html/index.html" afterPath="$PROJECT_DIR$/teen-empowerment/html/index.html" />
     </list>
     <ignored path="teen-empowerment.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,110 +29,96 @@
     <favorites_list name="teen-empowerment" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.613125">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/teen-empowerment/html/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="188">
-                  <caret line="144" column="25" selection-start-line="144" selection-start-column="25" selection-end-line="144" selection-end-column="25" />
-                  <folding>
-                    <element signature="e#964#971#1" expanded="true" />
-                    <element signature="e#4714#4719#0" expanded="true" />
-                    <element signature="e#5972#5977#0" expanded="true" />
-                    <element signature="e#8245#8251#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/teen-empowerment/html/about.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-                  <folding>
-                    <element signature="e#964#971#1" expanded="true" />
-                    <element signature="e#7111#7117#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/teen-empowerment/html/contact.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="474">
-                  <caret line="88" column="6" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
-                  <folding>
-                    <element signature="e#964#971#1" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="e#6577#6583#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/teen-empowerment/html/blog.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-                  <folding>
-                    <element signature="e#980#987#1" expanded="true" />
-                    <element signature="e#8114#8120#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="blog-insert.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/teen-empowerment/html/blog-insert.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-                  <folding>
-                    <element signature="e#964#971#1" expanded="true" />
-                    <element signature="e#4278#4284#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="donate.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/teen-empowerment/html/donate.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="75" column="6" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
-                  <folding>
-                    <element signature="e#964#971#1" expanded="true" />
-                    <element signature="e#5053#5059#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/teen-empowerment/css/main.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="500">
-                  <caret line="825" column="0" selection-start-line="825" selection-start-column="0" selection-end-line="825" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/teen-empowerment/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="282" column="20" selection-start-line="282" selection-start-column="14" selection-end-line="282" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teen-empowerment/html/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1631">
+              <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+              <folding>
+                <element signature="e#4714#4719#0" expanded="true" />
+                <element signature="e#8245#8251#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teen-empowerment/html/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="138" column="47" selection-start-line="138" selection-start-column="47" selection-end-line="138" selection-end-column="47" />
+              <folding>
+                <element signature="e#7387#7393#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teen-empowerment/html/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="678">
+              <caret line="92" column="26" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6435#6441#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teen-empowerment/html/blog.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-170">
+              <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+              <folding>
+                <element signature="e#8114#8120#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog-insert.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teen-empowerment/html/blog-insert.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+              <folding>
+                <element signature="e#980#987#1" expanded="true" />
+                <element signature="e#4294#4300#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="donate.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teen-empowerment/html/donate.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="26" />
+              <folding>
+                <element signature="e#5075#5081#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -142,13 +126,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/teen-empowerment/html/blog.html" />
         <option value="$PROJECT_DIR$/teen-empowerment/html/index.html" />
+        <option value="$PROJECT_DIR$/teen-empowerment/html/donate.html" />
         <option value="$PROJECT_DIR$/teen-empowerment/html/contact.html" />
         <option value="$PROJECT_DIR$/teen-empowerment/html/blog-insert.html" />
-        <option value="$PROJECT_DIR$/teen-empowerment/html/about.html" />
-        <option value="$PROJECT_DIR$/teen-empowerment/html/blog.html" />
-        <option value="$PROJECT_DIR$/teen-empowerment/html/donate.html" />
         <option value="$PROJECT_DIR$/teen-empowerment/css/main.css" />
+        <option value="$PROJECT_DIR$/teen-empowerment/html/about.html" />
       </list>
     </option>
   </component>
@@ -159,8 +143,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="707" />
-    <option name="width" value="901" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -190,7 +175,7 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Dunia/Web Design Challenge" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -279,15 +264,18 @@
       <workItem from="1475772670648" duration="17468000" />
       <workItem from="1475948231489" duration="435000" />
       <workItem from="1476191063896" duration="17739000" />
+      <workItem from="1476276783485" duration="601000" />
+      <workItem from="1476285761052" duration="220000" />
+      <workItem from="1476362831039" duration="18445000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126452000" />
+    <option name="totallyTimeSpent" value="145718000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="707" y="0" width="901" height="876" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2923611" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -342,7 +330,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/teen-empowerment/html/index.html</url>
           <line>183</line>
-          <properties />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -355,9 +342,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#964#971#1" expanded="true" />
             <element signature="e#4714#4719#0" expanded="true" />
-            <element signature="e#5972#5977#0" expanded="true" />
             <element signature="e#8245#8251#0" expanded="true" />
           </folding>
         </state>
@@ -376,12 +361,11 @@
         <state relative-caret-position="1455">
           <caret line="97" column="69" selection-start-line="0" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
           <folding>
-            <element signature="e#964#971#1" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6577#6583#0" expanded="true" />
+            <element signature="e#6435#6441#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -391,8 +375,8 @@
         <state relative-caret-position="1815">
           <caret line="121" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
           <folding>
-            <element signature="e#964#971#1" expanded="true" />
-            <element signature="e#4278#4284#0" expanded="true" />
+            <element signature="e#980#987#1" expanded="true" />
+            <element signature="e#4294#4300#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -402,8 +386,7 @@
         <state relative-caret-position="1230">
           <caret line="82" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
           <folding>
-            <element signature="e#964#971#1" expanded="true" />
-            <element signature="e#5053#5059#0" expanded="true" />
+            <element signature="e#5075#5081#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -413,8 +396,7 @@
         <state relative-caret-position="2595">
           <caret line="173" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
           <folding>
-            <element signature="e#964#971#1" expanded="true" />
-            <element signature="e#7111#7117#0" expanded="true" />
+            <element signature="e#7387#7393#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -424,7 +406,6 @@
         <state relative-caret-position="2880">
           <caret line="192" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
           <folding>
-            <element signature="e#980#987#1" expanded="true" />
             <element signature="e#8114#8120#0" expanded="true" />
           </folding>
         </state>
@@ -435,9 +416,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#964#971#1" expanded="true" />
             <element signature="e#4714#4719#0" expanded="true" />
-            <element signature="e#5972#5977#0" expanded="true" />
             <element signature="e#8245#8251#0" expanded="true" />
           </folding>
         </state>
@@ -456,8 +435,8 @@
         <state relative-caret-position="690">
           <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
           <folding>
-            <element signature="e#964#971#1" expanded="true" />
-            <element signature="e#4278#4284#0" expanded="true" />
+            <element signature="e#980#987#1" expanded="true" />
+            <element signature="e#4294#4300#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -467,8 +446,7 @@
         <state relative-caret-position="675">
           <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
           <folding>
-            <element signature="e#964#971#1" expanded="true" />
-            <element signature="e#5053#5059#0" expanded="true" />
+            <element signature="e#5075#5081#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -478,8 +456,7 @@
         <state relative-caret-position="2955">
           <caret line="197" column="0" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
           <folding>
-            <element signature="e#964#971#1" expanded="true" />
-            <element signature="e#7111#7117#0" expanded="true" />
+            <element signature="e#7387#7393#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -489,9 +466,7 @@
         <state relative-caret-position="3360">
           <caret line="224" column="0" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
           <folding>
-            <element signature="e#964#971#1" expanded="true" />
             <element signature="e#4714#4719#0" expanded="true" />
-            <element signature="e#5972#5977#0" expanded="true" />
             <element signature="e#8245#8251#0" expanded="true" />
           </folding>
         </state>
@@ -510,8 +485,8 @@
         <state relative-caret-position="690">
           <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
           <folding>
-            <element signature="e#964#971#1" expanded="true" />
-            <element signature="e#4278#4284#0" expanded="true" />
+            <element signature="e#980#987#1" expanded="true" />
+            <element signature="e#4294#4300#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -521,8 +496,7 @@
         <state relative-caret-position="675">
           <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
           <folding>
-            <element signature="e#964#971#1" expanded="true" />
-            <element signature="e#5053#5059#0" expanded="true" />
+            <element signature="e#5075#5081#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -532,8 +506,7 @@
         <state relative-caret-position="2955">
           <caret line="197" column="0" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
           <folding>
-            <element signature="e#964#971#1" expanded="true" />
-            <element signature="e#7111#7117#0" expanded="true" />
+            <element signature="e#7387#7393#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -543,9 +516,7 @@
         <state relative-caret-position="3808">
           <caret line="224" column="0" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
           <folding>
-            <element signature="e#964#971#1" expanded="true" />
             <element signature="e#4714#4719#0" expanded="true" />
-            <element signature="e#5972#5977#0" expanded="true" />
             <element signature="e#8245#8251#0" expanded="true" />
           </folding>
         </state>
@@ -564,8 +535,8 @@
         <state relative-caret-position="629">
           <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
           <folding>
-            <element signature="e#964#971#1" expanded="true" />
-            <element signature="e#4278#4284#0" expanded="true" />
+            <element signature="e#980#987#1" expanded="true" />
+            <element signature="e#4294#4300#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -575,8 +546,7 @@
         <state relative-caret-position="629">
           <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
           <folding>
-            <element signature="e#964#971#1" expanded="true" />
-            <element signature="e#5053#5059#0" expanded="true" />
+            <element signature="e#5075#5081#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -586,8 +556,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#964#971#1" expanded="true" />
-            <element signature="e#7111#7117#0" expanded="true" />
+            <element signature="e#7387#7393#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -612,9 +581,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#964#971#1" expanded="true" />
             <element signature="e#4714#4719#0" expanded="true" />
-            <element signature="e#5972#5977#0" expanded="true" />
             <element signature="e#8245#8251#0" expanded="true" />
           </folding>
         </state>
@@ -633,9 +600,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#964#971#1" expanded="true" />
             <element signature="e#4714#4719#0" expanded="true" />
-            <element signature="e#5972#5977#0" expanded="true" />
             <element signature="e#8245#8251#0" expanded="true" />
           </folding>
         </state>
@@ -654,9 +619,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#964#971#1" expanded="true" />
             <element signature="e#4714#4719#0" expanded="true" />
-            <element signature="e#5972#5977#0" expanded="true" />
             <element signature="e#8245#8251#0" expanded="true" />
           </folding>
         </state>
@@ -675,9 +638,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#964#971#1" expanded="true" />
             <element signature="e#4714#4719#0" expanded="true" />
-            <element signature="e#5972#5977#0" expanded="true" />
             <element signature="e#8245#8251#0" expanded="true" />
           </folding>
         </state>
@@ -695,9 +656,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#964#971#1" expanded="true" />
             <element signature="e#4714#4719#0" expanded="true" />
-            <element signature="e#5972#5977#0" expanded="true" />
             <element signature="e#8245#8251#0" expanded="true" />
           </folding>
         </state>
@@ -755,83 +714,77 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/teen-empowerment/html/contact.html">
+    <entry file="file://$PROJECT_DIR$/teen-empowerment/html/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="88" column="6" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
+        <state relative-caret-position="-170">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
           <folding>
-            <element signature="e#964#971#1" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6577#6583#0" expanded="true" />
+            <element signature="e#8114#8120#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/teen-empowerment/html/blog-insert.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#964#971#1" expanded="true" />
-            <element signature="e#4278#4284#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teen-empowerment/html/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding>
-            <element signature="e#964#971#1" expanded="true" />
-            <element signature="e#7111#7117#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teen-empowerment/html/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        <state relative-caret-position="136">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
           <folding>
             <element signature="e#980#987#1" expanded="true" />
-            <element signature="e#8114#8120#0" expanded="true" />
+            <element signature="e#4294#4300#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/teen-empowerment/html/donate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="75" column="6" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
+        <state relative-caret-position="307">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="26" />
           <folding>
-            <element signature="e#964#971#1" expanded="true" />
-            <element signature="e#5053#5059#0" expanded="true" />
+            <element signature="e#5075#5081#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teen-empowerment/html/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="92" column="26" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6435#6441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teen-empowerment/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1631">
+          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+          <folding>
+            <element signature="e#4714#4719#0" expanded="true" />
+            <element signature="e#8245#8251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teen-empowerment/html/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="138" column="47" selection-start-line="138" selection-start-column="47" selection-end-line="138" selection-end-column="47" />
+          <folding>
+            <element signature="e#7387#7393#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/teen-empowerment/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="825" column="0" selection-start-line="825" selection-start-column="0" selection-end-line="825" selection-end-column="0" />
+        <state relative-caret-position="227">
+          <caret line="282" column="20" selection-start-line="282" selection-start-column="14" selection-end-line="282" selection-end-column="20" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teen-empowerment/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="144" column="25" selection-start-line="144" selection-start-column="25" selection-end-line="144" selection-end-column="25" />
-          <folding>
-            <element signature="e#964#971#1" expanded="true" />
-            <element signature="e#4714#4719#0" expanded="true" />
-            <element signature="e#5972#5977#0" expanded="true" />
-            <element signature="e#8245#8251#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
