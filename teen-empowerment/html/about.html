@@ -14,7 +14,31 @@
     <link rel="stylesheet" href="../css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald" rel="stylesheet">
     <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+    <script>
+        $(document).ready(function(){
 
+            $("#about-us").on("click",function(){
+
+                $("#aboutsect").show();
+                $("#impactsect").hide();
+                $("#ourworksect").hide();
+            });
+            $("#impact").on("click",function(){
+
+                $("#impactsect").show();
+                $("#ourworksect").hide();
+                $("#aboutsect").hide();
+            });
+            $("#ourwork").on("click",function(){
+
+                $("#ourworksect").show();
+                $("#impactsect").hide();
+                $("#aboutsect").hide();
+            });
+
+
+        });
+    </script>
 </head>
 <body>
 <!--Nav starts -->
@@ -122,10 +146,10 @@
             <p>Manager, Grant Thornton LLP.</p>
         </div>
     </section>
-    <section class="aboutmain hidden" id="impactsect">
+    <section class="aboutmain" id="impactsect">
         <h1>IMPACT</h1>
     </section>
-    <section class="aboutmain hidden" id="ourworksect">
+    <section class="aboutmain" id="ourworksect">
         <h1>OUR WORK</h1>
     </section>
 </div>
@@ -180,32 +204,6 @@
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
-
-<!--<script>
-    $(document).ready(function(){
-
-        $("#about-us").on("click",function(){
-
-            $("#aboutsect").toggle();
-            $("#impactsect").hide();
-            $("#ourworksect").hide();
-        });
-        $("#impact").on("click",function(){
-
-            $("#impactsect").show();
-            $("#ourworksect").hide();
-            $("#aboutsect").hide();
-        });
-        $("#ourwork").on("click",function(){
-
-            $("#ourworksect").show();
-            $("#impactsect").hide();
-            $("#aboutsect").hide();
-        });
-
-
-    });
-</script>-->
 
 <!-- google analytics: change ua-xxxxx-x to be your site's id. -->
 <script>

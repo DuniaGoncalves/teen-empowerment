@@ -127,6 +127,7 @@ body{
 form {
     text-align: left;
     flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
 }
 
 h1,
@@ -166,9 +167,14 @@ section {
     margin: 40px auto;
     max-width: 1280px;
     display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
     justify-content: space-between;
+    -webkit-justify-content:space-between;
     width: 100%;
+
 }
 
 
@@ -181,7 +187,11 @@ ul {
 .container{
     width: 100%;
     display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     flex-direction: column;
+    -webkit-flex-direction: column;
+
 }
 
 
@@ -212,8 +222,12 @@ h5{
 
 nav {
     display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     justify-content: space-between;
+    -webkit-justify-content:space-between;
     align-items: flex-start;
+    -webkit-align-items: flex-start;
 }
 
 nav a{
@@ -222,7 +236,10 @@ nav a{
 
 nav ul {
     display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     justify-content: flex-end;
+    -webkit-justify-content: flex-end;
 }
 
 nav .logo{
@@ -240,8 +257,12 @@ nav .logo{
 
 .home-header-text{
     display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     justify-content: space-between;
+    -webkit-justify-content:space-between;
     align-items: flex-end;
+    -webkit-align-items: flex-end;
 }
 
 .home-title{
@@ -250,8 +271,12 @@ nav .logo{
 
 .main-hero{
     display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     flex-flow: column wrap;
+    -webkit-flex-flow: column wrap;
     justify-content: space-between;
+    -webkit-justify-content:space-between;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Airmen_celebrate_Black_History_Month_through_spoken_word_140211-F-VU439-061.jpg/1280px-Airmen_celebrate_Black_History_Month_through_spoken_word_140211-F-VU439-061.jpg");
     background-size: cover;
     background-color: rgb(11, 66, 211);
@@ -284,7 +309,10 @@ nav .logo{
     width: 33%;
     height: 100%;
     display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     justify-content: flex-end;
+    -webkit-justify-content: flex-end;
     max-width: 400px;
     min-width: 360px;
 }
@@ -302,6 +330,8 @@ nav .logo{
    ========================== */
 .feat-flex{
     display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
 }
 
 .featured {
@@ -411,10 +441,15 @@ body.plugin {
 .news{
     width: 50%;
     display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
     justify-content: space-between;
+    -webkit-justify-content: space-between;
     padding: 30px 0;
 }
+
 
 .news ul{
     text-align: left;
@@ -460,7 +495,10 @@ body.plugin {
 
 .slidernav ul{
     display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     padding: 0;
+
 }
 
 .slidernav li:hover{
@@ -495,8 +533,12 @@ body.plugin {
 }
 .blogstyle article{
     display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
     justify-content: space-around;
+    -webkit-justify-content:space-between;
 }
 
 .blogtext{
@@ -590,11 +632,15 @@ body.plugin {
 
 .contact-container {
     display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     margin: 40px auto;
     max-width: 1280px;
     justify-content: space-between;
+    -webkit-justify-content:space-between;
     width: 100%;
 }
+
 .contact-container a{
     color: black;
 }
@@ -712,7 +758,10 @@ i {
 
 .footertitle{
     display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     justify-content: space-between;
+    -webkit-justify-content:space-between;
     margin: 0 21px 0 20px;
 }
 
@@ -728,7 +777,10 @@ i {
 
 .social-media ul{
     display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     justify-content: flex-end;
+    -webkit-justify-content: space-between
     padding: 0;
 }
 
@@ -864,6 +916,7 @@ i {
 
     .social-media .wrapper{
         flex-flow: inherit;
+        -webkit-flex-flow: inherit;
     }
 
 }
@@ -935,6 +988,7 @@ i {
 
     .contact-container{
         flex-flow: row wrap;
+        -webkit-flex-flow: row wrap;
     }
     .contact-container div{
         width:42%;
